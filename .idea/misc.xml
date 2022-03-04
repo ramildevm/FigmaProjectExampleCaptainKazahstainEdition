@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/background.xml" value="0.2703125" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/background_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/ic_swipe_page1.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/ic_swipe_page2.xml" value="0.264" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/ic_swipe_page3.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/drawable/rounded_border.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_down_first_page.xml" value="0.152" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_down_first_page_of_ckp.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_down_third_page_of_ckp.xml" value="0.264" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_fifth_page_of_ckp.xml" value="0.2" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_fouth_page_of_ckp.xml" value="0.2" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_gallery_page_of_ckp.xml" value="0.14855072463768115" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_second_page_of_ckp.xml" value="0.2" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/layout/activity_third_page_of_ckp.xml" value="0.264" />
+        <entry key="..\:/Users/ramil/AndroidStudioProjects/FigmaProjectExampleCaptainKazahstainEdition/app/src/main/res/mipmap-anydpi-v26/background_round.xml" value="0.14635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
