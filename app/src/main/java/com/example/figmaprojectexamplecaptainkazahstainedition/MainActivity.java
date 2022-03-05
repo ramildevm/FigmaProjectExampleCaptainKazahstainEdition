@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent switcher = new Intent(MainActivity.this, SecondPageOfCKP.class);
                 MainActivity.this.startActivity(switcher);
+                overridePendingTransition(R.anim.alpha_in,R.anim.alpha_out);
             }
         });
     }

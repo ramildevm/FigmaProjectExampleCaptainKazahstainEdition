@@ -76,9 +76,9 @@ public class ActivityThirdPageOfCkp extends AppCompatActivity {
         }
         return false;
     }
-
     public void goToPage5(View view) {
         Intent intent = new Intent(this, FifthPageOfCKP.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_down,R.anim.slide_out_up);
     }
 }
