@@ -13,4 +13,20 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.FirstActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="Theme.SecondActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/image_transition
+        </item>
+
+        <item name="android:windowSharedElementExitTransition">
+            @transition/image_transition
+        </item>
+    </style>
 </resources>
