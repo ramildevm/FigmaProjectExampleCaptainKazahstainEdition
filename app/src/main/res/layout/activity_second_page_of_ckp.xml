@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/toppanel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
@@ -62,6 +63,7 @@
             android:layout_height="530dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:transitionName="content_transition"
             android:layout_marginTop="60dp"
             android:background="#B3FFFFFF"
             android:gravity="center_horizontal"
@@ -95,7 +97,8 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/rounded_border"
                 android:text="Узнать новое!"
-                android:textSize="13sp" />
+                android:textSize="13sp"
+                android:onClick="goToDownPage"/>
 
             <ImageView
                 android:id="@+id/imageViewSwipe"

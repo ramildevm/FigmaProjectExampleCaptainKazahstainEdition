@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 Bundle bundle = null;
                 View view = findViewById(R.id.imgGoHome);
                 String str = getString(R.string.image_transition);
-                if (v != null) {
+                if (view != null) {
                     ActivityOptions options;
                     options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, view, str);
                     bundle = options.toBundle();

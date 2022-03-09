@@ -59,7 +59,7 @@ public class SecondPageOfCKP extends AppCompatActivity {
                 startActivity(i);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
-                else if (y1>y2){
+                else if (y1>y2 & Math.abs(x1-x2)<150){
                     Intent intent = new Intent(this, DownFirstPageOfCKP.class);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_down,R.anim.slide_out_up);
@@ -67,5 +67,9 @@ public class SecondPageOfCKP extends AppCompatActivity {
                 break;
         }
         return false;
+    }
+    public void goToDownPage(View v){
+        startActivity(new Intent(this,DownFirstPageOfCKP.class));
+        overridePendingTransition(R.anim.slide_in_down,R.anim.slide_out_up);
     }
 }

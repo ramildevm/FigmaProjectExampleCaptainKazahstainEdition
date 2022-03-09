@@ -59,7 +59,7 @@ public class FouthPageOfCKP extends AppCompatActivity {
                     startActivity(i);
                     overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                 }
-                else if (y1>y2){
+                else if (y1>y2 & Math.abs(x1-x2)<150){
                     Intent intent = new Intent(this, DownThirdPageOfCKP.class);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_down,R.anim.slide_out_up);
@@ -71,5 +71,6 @@ public class FouthPageOfCKP extends AppCompatActivity {
     public void goToPage6(View view) {
         Intent intent = new Intent(this, FifthPageOfCKP.class);
         startActivity(intent);
+        overridePendingTransition(R.anim.slide_in_down,R.anim.slide_out_up);
     }
 }
